@@ -62,11 +62,14 @@ title: FTH - Formação Tecnológica em Humanoides
 <div class="niveis-preview">
 
   <div class="nivel-card nivel-1">
-    <div class="nivel-header">
-      <span class="nivel-icon">🌟</span>
-      <h3>Nível 1: Explorador</h3>
-      <span class="nivel-duracao">12-15 horas</span>
+    <div class="nivel-card-header">
+      <div class="nivel-header">
+        <span class="nivel-icon">🌟</span>
+        <h3>Nível 1: Explorador</h3>
+      </div>
+      <span class="nivel-badge gratuito">Gratuito</span>
     </div>
+    <span class="nivel-duracao">12-15 horas</span>
     <p class="nivel-descricao">Desperte sua curiosidade! Entenda o que é um robô humanoide e faça-o andar e responder comandos de voz.</p>
     <ul class="nivel-topicos">
       <li>✓ O que são robôs humanoides?</li>
@@ -78,11 +81,14 @@ title: FTH - Formação Tecnológica em Humanoides
   </div>
 
   <div class="nivel-card nivel-2">
-    <div class="nivel-header">
-      <span class="nivel-icon">⚡</span>
-      <h3>Nível 2: Criador</h3>
-      <span class="nivel-duracao">35-45 horas</span>
+    <div class="nivel-card-header">
+      <div class="nivel-header">
+        <span class="nivel-icon">⚡</span>
+        <h3>Nível 2: Criador</h3>
+      </div>
+      <span class="nivel-badge gratuito">Gratuito</span>
     </div>
+    <span class="nivel-duracao">35-45 horas</span>
     <p class="nivel-descricao">Desenvolva lógica e raciocínio técnico. Programe comportamentos autônomos com Python e ROS 2.</p>
     <ul class="nivel-topicos">
       <li>✓ Python para robótica</li>
@@ -94,11 +100,14 @@ title: FTH - Formação Tecnológica em Humanoides
   </div>
 
   <div class="nivel-card nivel-3">
-    <div class="nivel-header">
-      <span class="nivel-icon">🔥</span>
-      <h3>Nível 3: Desenvolvedor</h3>
-      <span class="nivel-duracao">50-60 horas</span>
+    <div class="nivel-card-header">
+      <div class="nivel-header">
+        <span class="nivel-icon">🔥</span>
+        <h3>Nível 3: Desenvolvedor</h3>
+      </div>
+      <span class="nivel-badge premium">Premium</span>
     </div>
+    <span class="nivel-duracao">50-60 horas</span>
     <p class="nivel-descricao">Domine Inteligência Artificial. Ensine robôs a aprenderem novas tarefas sozinhos com RL e LBMs.</p>
     <ul class="nivel-topicos">
       <li>✓ Aprendizado por Reforço (PPO, SAC)</li>
@@ -110,11 +119,14 @@ title: FTH - Formação Tecnológica em Humanoides
   </div>
 
   <div class="nivel-card nivel-4">
-    <div class="nivel-header">
-      <span class="nivel-icon">👑</span>
-      <h3>Nível 4: Profissional</h3>
-      <span class="nivel-duracao">30-40 horas</span>
+    <div class="nivel-card-header">
+      <div class="nivel-header">
+        <span class="nivel-icon">👑</span>
+        <h3>Nível 4: Profissional</h3>
+      </div>
+      <span class="nivel-badge premium">Premium</span>
     </div>
+    <span class="nivel-duracao">30-40 horas</span>
     <p class="nivel-descricao">Transforme conhecimento em negócio. Crie startups, soluções para empresas ou projetos educacionais.</p>
     <ul class="nivel-topicos">
       <li>✓ Modelos de negócio</li>
