@@ -7,12 +7,12 @@
    FTH Custom Styles - Inspired by FEP
    =================================== */
 
-/* Variables - UX FASE 2: Melhor Contraste WCAG AA+ */
+/* Variables - UX FASE 3: Tonalidade Azul e Botões Discretos */
 :root {
-  /* Cores Primárias */
-  --primary-color: #1d4ed8;
-  --primary-hover: #1e40af;
-  --secondary-color: #7c3aed;
+  /* Cores Primárias - Tonalidade Azul */
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --secondary-color: #3b82f6;
   --success-color: #059669;
   --warning-color: #d97706;
   --danger-color: #dc2626;
@@ -25,11 +25,11 @@
   --gray: #4b5563;          /* Contraste 7.6:1 ✅ AA+ */
   --gray-light: #6b7280;    /* Apenas decorativo */
 
-  /* Níveis */
-  --nivel-1: #2563eb;
-  --nivel-2: #7c3aed;
-  --nivel-3: #dc2626;
-  --nivel-4: #d97706;
+  /* Níveis - Tons de Azul */
+  --nivel-1: #3b82f6;
+  --nivel-2: #2563eb;
+  --nivel-3: #1d4ed8;
+  --nivel-4: #1e40af;
 
   /* Spacing */
   --spacing-xs: 0.5rem;
@@ -43,11 +43,11 @@
   --radius: 0.625rem;
   --radius-lg: 1rem;
 
-  /* Shadows - Mais Profundas */
-  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-md: 0 6px 12px -2px rgba(0, 0, 0, 0.12), 0 3px 6px -1px rgba(0, 0, 0, 0.08);
-  --shadow-lg: 0 10px 20px -3px rgba(0, 0, 0, 0.15), 0 4px 8px -2px rgba(0, 0, 0, 0.08);
-  --shadow-xl: 0 20px 30px -6px rgba(0, 0, 0, 0.2), 0 8px 16px -4px rgba(0, 0, 0, 0.1);
+  /* Shadows - Discretas */
+  --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 
   /* Transitions */
   --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -75,15 +75,15 @@ h1 { font-size: 2.5rem; }
 h2 { font-size: 2rem; }
 h3 { font-size: 1.5rem; }
 
-/* Hero Section - Contraste Perfeito */
+/* Hero Section - Tonalidade Azul */
 .hero-section {
   text-align: center;
   padding: var(--spacing-xl) var(--spacing-md);
-  background: linear-gradient(135deg, #4338ca 0%, #6d28d9 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
   color: white;
   border-radius: var(--radius-lg);
   margin-bottom: var(--spacing-xl);
-  box-shadow: 0 8px 24px rgba(67, 56, 202, 0.25);
+  box-shadow: var(--shadow-md);
 }
 
 .hero-title {
@@ -149,19 +149,19 @@ h3 { font-size: 1.5rem; }
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  background: var(--primary-color);
   color: white;
-  box-shadow: 0 6px 16px rgba(99, 102, 241, 0.35);
+  box-shadow: var(--shadow);
 }
 
 .btn-primary:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 24px rgba(99, 102, 241, 0.45);
+  background: var(--primary-hover);
+  box-shadow: var(--shadow-md);
 }
 
 .btn-primary:focus-visible {
-  outline: 3px solid rgba(99, 102, 241, 0.5);
-  outline-offset: 3px;
+  outline: 3px solid rgba(37, 99, 235, 0.4);
+  outline-offset: 2px;
 }
 
 .btn-secondary {
@@ -175,8 +175,7 @@ h3 { font-size: 1.5rem; }
 .btn-secondary:hover {
   background-color: rgba(255, 255, 255, 0.25);
   border-color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--shadow-md);
 }
 
 .btn-secondary:focus-visible {
@@ -191,16 +190,16 @@ h3 { font-size: 1.5rem; }
 }
 
 .btn-nivel {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
+  background: var(--primary-color);
   color: white;
   width: 100%;
   margin-top: auto;
-  box-shadow: 0 4px 12px rgba(29, 78, 216, 0.25);
+  box-shadow: var(--shadow);
 }
 
 .btn-nivel:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(29, 78, 216, 0.35);
+  background: var(--primary-hover);
+  box-shadow: var(--shadow-md);
 }
 
 .btn-nivel:focus-visible {
@@ -209,20 +208,20 @@ h3 { font-size: 1.5rem; }
 }
 
 .btn-premium {
-  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  background: var(--nivel-4);
   color: white;
   width: 100%;
   margin-top: auto;
-  box-shadow: 0 6px 16px rgba(139, 92, 246, 0.35);
+  box-shadow: var(--shadow);
 }
 
 .btn-premium:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 24px rgba(139, 92, 246, 0.45);
+  background: #1e3a8a;
+  box-shadow: var(--shadow-md);
 }
 
 .btn-premium:focus-visible {
-  outline: 3px solid rgba(139, 92, 246, 0.5);
+  outline: 3px solid rgba(30, 64, 175, 0.4);
   outline-offset: 2px;
 }
 
@@ -383,9 +382,9 @@ h3 { font-size: 1.5rem; }
 }
 
 .nivel-badge.premium {
-  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  background: var(--nivel-4);
   color: white;
-  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.35);
+  box-shadow: var(--shadow);
 }
 
 .nivel-card-header {
@@ -498,10 +497,11 @@ h3 { font-size: 1.5rem; }
 .cta-final, .cta-section {
   text-align: center;
   padding: var(--spacing-xl) var(--spacing-lg);
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
   color: white;
   border-radius: var(--radius);
   margin: var(--spacing-xl) 0;
+  box-shadow: var(--shadow-md);
 }
 
 .cta-final h2, .cta-section h2, .cta-section h3 {
@@ -616,7 +616,7 @@ tbody tr:hover {
 
 /* Focus Visível para Navegação por Teclado */
 *:focus-visible {
-  outline: 3px solid rgba(99, 102, 241, 0.5);
+  outline: 3px solid rgba(37, 99, 235, 0.5);
   outline-offset: 2px;
 }
 
@@ -627,6 +627,50 @@ html {
 
 /* Selection Color */
 ::selection {
-  background-color: rgba(99, 102, 241, 0.2);
+  background-color: rgba(37, 99, 235, 0.2);
   color: var(--dark-text);
+}
+
+/* ===================================
+   BANNER DE TÍTULO - Novo
+   =================================== */
+
+.page-banner {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
+  color: white;
+  padding: var(--spacing-xl) var(--spacing-lg);
+  margin: calc(var(--spacing-xl) * -1) calc(var(--spacing-lg) * -1) var(--spacing-xl);
+  border-radius: 0;
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+.page-banner h1 {
+  color: white;
+  margin: 0;
+  font-size: 2.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.page-banner .subtitle {
+  font-size: 1.125rem;
+  margin-top: var(--spacing-sm);
+  opacity: 0.95;
+  font-weight: 400;
+}
+
+/* Banner para páginas internas */
+.post-header, .page-header {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-hover) 100%);
+  color: white;
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+}
+
+.post-header h1, .page-header h1 {
+  color: white;
+  margin: 0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
