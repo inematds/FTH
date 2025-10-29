@@ -1,0 +1,71 @@
+# Configuração do Site FTH - Formação Tecnológica em Humanoides
+# GitHub Pages com Jekyll
+
+# Informações do Site
+title: "FTH - Formação Tecnológica em Humanoides"
+description: "Do Zero ao Robô Autônomo: Aprenda robótica humanoide e IA de forma acessível e progressiva"
+baseurl: "/FTH"
+url: "https://inematds.github.io"
+
+# Autor e Contato
+author: "Noetix Education"
+email: "inematds@gmail.com"
+
+# GitHub
+github_username: inematds
+repository: inematds/FTH
+
+# Tema
+theme: minima
+markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Configurações de Build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .bmad-core
+  - Doc
+
+# Navegação
+header_pages:
+  - niveis.md
+  - trilhas.md
+  - recursos.md
+  - sobre.md
+
+# Configurações de SEO
+lang: pt-BR
+twitter:
+  username: noetix_edu
+  card: summary_large_image
+
+# Google Analytics (adicionar depois)
+# google_analytics: UA-XXXXXXXXX-X
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "niveis"
+      type: "pages"
+    values:
+      layout: "nivel"
+  - scope:
+      path: "trilhas"
+      type: "pages"
+    values:
+      layout: "trilha"

@@ -1,0 +1,35 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby
+vendor/
+.bundle/
+Gemfile.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# BMad (não commitar configurações locais)
+.bmad-core/local-*
+
+# Node (se usar no futuro)
+node_modules/
+package-lock.json
+
+# Temporários
+*.tmp
+*.bak
+*~
