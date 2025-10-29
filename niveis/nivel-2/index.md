@@ -88,6 +88,6 @@ Certificado Digital "Criador em Robótica Humanoide" + Acesso ao Nível 3
 
 ---
 
-[→ Começar Nível 2](#){: .btn .btn-primary}
+[→ Começar Nível 2]({{ '/niveis/nivel-2/modulo-1' | relative_url }}){: .btn .btn-primary}
 
 **Última atualização:** 2025-10-29

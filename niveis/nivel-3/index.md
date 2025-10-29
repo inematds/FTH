@@ -88,6 +88,6 @@ Certificado Digital "Desenvolvedor em Robótica Humanoide" + Portfólio Técnico
 
 ---
 
-[→ Inscrever-se no Nível 3 (Premium)](#){: .btn .btn-premium}
+[→ Começar Nível 3]({{ '/niveis/nivel-3/modulo-1' | relative_url }}){: .btn .btn-premium}
 
 **Última atualização:** 2025-10-29

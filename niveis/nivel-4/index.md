@@ -97,6 +97,6 @@ Ao completar o Nível 4, você será capaz de:
 
 ---
 
-[→ Inscrever-se no Nível 4 (Premium)](#){: .btn .btn-premium}
+[→ Começar Nível 4]({{ '/niveis/nivel-4/modulo-1' | relative_url }}){: .btn .btn-premium}
 
 **Última atualização:** 2025-10-29

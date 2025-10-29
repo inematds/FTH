@@ -59,4 +59,4 @@ Um robô humanoide programado para:
 
 ---
 
-[→ Começar Trilha Educação](#){: .btn .btn-primary}
+[→ Começar Trilha Educação]({{ '/niveis/nivel-1/' | relative_url }}){: .btn .btn-primary}

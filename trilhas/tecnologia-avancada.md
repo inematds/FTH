@@ -63,4 +63,4 @@ Opções avançadas:
 
 ---
 
-[→ Começar Trilha Tecnologia Avançada](#){: .btn .btn-primary}
+[→ Começar Trilha Tecnologia Avançada]({{ '/niveis/nivel-1/' | relative_url }}){: .btn .btn-primary}

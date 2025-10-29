@@ -63,4 +63,4 @@ Opções de negócio:
 
 ---
 
-[→ Começar Trilha Empreendedorismo](#){: .btn .btn-primary}
+[→ Começar Trilha Empreendedorismo]({{ '/niveis/nivel-1/' | relative_url }}){: .btn .btn-primary}

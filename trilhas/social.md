@@ -59,4 +59,4 @@ Um programa completo incluindo:
 
 ---
 
-[→ Começar Trilha Social](#){: .btn .btn-primary}
+[→ Começar Trilha Social]({{ '/niveis/nivel-1/' | relative_url }}){: .btn .btn-primary}
