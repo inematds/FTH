@@ -1238,7 +1238,7 @@ No Módulo 4.3, você vai aprender a criar protótipos completos e aplicações 
 - Documentação profissional
 - Apresentação para stakeholders
 
-[→ Iniciar Módulo 4.3: Protótipos e Aplicações](modulo-3){: .btn .btn-primary}
+[→ Iniciar Módulo 4.3: Protótipos e Aplicações]({{ '/niveis/nivel-4/modulo-3' | relative_url }}){: .btn .btn-primary}
 
 ---
 

@@ -1298,6 +1298,8 @@ Parabéns por dominar algoritmos avançados de RL! Agora você está pronto para
 2. **Módulo 3.3**: Large Behavior Models (LBMs)
 3. **Nível 4**: Aplicações Profissionais
 
+[→ Iniciar Módulo 3.2: Visão Computacional]({{ '/niveis/nivel-3/modulo-2' | relative_url }}){: .btn .btn-primary}
+
 ---
 
 **Última atualização:** 2025-10-29

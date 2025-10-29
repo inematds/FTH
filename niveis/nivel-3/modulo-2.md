@@ -1246,6 +1246,8 @@ Você dominou visão computacional para robótica! Próximo módulo:
 
 **Módulo 3.3**: Large Behavior Models (LBMs)
 
+[→ Iniciar Módulo 3.3: Large Behavior Models]({{ '/niveis/nivel-3/modulo-3' | relative_url }}){: .btn .btn-primary}
+
 ---
 
 **Última atualização:** 2025-10-29

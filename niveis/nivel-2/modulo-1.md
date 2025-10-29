@@ -938,7 +938,7 @@ No **Módulo 2.2: Sensores e Controle**, você vai:
 - Implementar controle PID
 - Criar comportamentos mais complexos
 
-[→ Ir para Módulo 2.2](/niveis/nivel-2/modulo-2/)
+[→ Ir para Módulo 2.2]({{ '/niveis/nivel-2/modulo-2' | relative_url }}){: .btn .btn-primary}
 
 ---
 

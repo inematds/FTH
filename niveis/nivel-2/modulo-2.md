@@ -1094,7 +1094,7 @@ No **Módulo 2.3: Introdução a Aprendizado por Reforço**, você vai:
 - Treinar robô com PPO
 - Fazer robô aprender comportamentos
 
-[→ Ir para Módulo 2.3](/niveis/nivel-2/modulo-3/)
+[→ Ir para Módulo 2.3]({{ '/niveis/nivel-2/modulo-3' | relative_url }}){: .btn .btn-primary}
 
 ---
 

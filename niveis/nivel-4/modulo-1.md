@@ -1067,7 +1067,7 @@ Agora que você tem um modelo de negócio validado, é hora de aprender a tirar 
 - Calibração e fine-tuning em hardware
 - Deployment em produção
 
-[→ Iniciar Módulo 4.2: Sim-to-Real Transfer](modulo-2){: .btn .btn-primary}
+[→ Iniciar Módulo 4.2: Sim-to-Real Transfer]({{ '/niveis/nivel-4/modulo-2' | relative_url }}){: .btn .btn-primary}
 
 ---
 
