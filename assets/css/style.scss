@@ -159,6 +159,16 @@ h3 { font-size: 1.5rem; }
   box-shadow: var(--shadow-md);
 }
 
+.btn-primary:active {
+  background: #1e40af;
+  transform: scale(0.98);
+}
+
+.btn-primary:visited {
+  color: white;
+  background: var(--primary-color);
+}
+
 .btn-primary:focus-visible {
   outline: 3px solid rgba(37, 99, 235, 0.4);
   outline-offset: 2px;
@@ -176,6 +186,15 @@ h3 { font-size: 1.5rem; }
   background-color: rgba(255, 255, 255, 0.25);
   border-color: white;
   box-shadow: var(--shadow-md);
+}
+
+.btn-secondary:active {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: scale(0.98);
+}
+
+.btn-secondary:visited {
+  color: white;
 }
 
 .btn-secondary:focus-visible {
@@ -202,6 +221,16 @@ h3 { font-size: 1.5rem; }
   box-shadow: var(--shadow-md);
 }
 
+.btn-nivel:active {
+  background: #1e40af;
+  transform: scale(0.98);
+}
+
+.btn-nivel:visited {
+  color: white;
+  background: var(--primary-color);
+}
+
 .btn-nivel:focus-visible {
   outline: 3px solid rgba(29, 78, 216, 0.4);
   outline-offset: 2px;
@@ -218,6 +247,16 @@ h3 { font-size: 1.5rem; }
 .btn-premium:hover {
   background: #1e3a8a;
   box-shadow: var(--shadow-md);
+}
+
+.btn-premium:active {
+  background: #172554;
+  transform: scale(0.98);
+}
+
+.btn-premium:visited {
+  color: white;
+  background: var(--nivel-4);
 }
 
 .btn-premium:focus-visible {
