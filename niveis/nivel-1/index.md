@@ -47,7 +47,7 @@ Descubra o fascinante mundo dos robôs humanoides!
 - Atlas (Boston Dynamics), Tesla Optimus, Figure 01
 - Anatomia de um robô: sensores, atuadores, cérebro
 - Por que humanoides? Vantagens e aplicações
-- O futuro da robótica (2025-2035)
+- O futuro da robótica (2026-2036)
 
 [→ Iniciar Módulo 1.1]({{ '/niveis/nivel-1/modulo-1' | relative_url }}){: .btn .btn-primary}
 
@@ -191,16 +191,15 @@ R: Não recomendamos. Cada nível constrói conhecimento do anterior. Mas se voc
 
 ---
 
-## 🌟 Depoimentos de Quem Completou
+## 🌟 O Que Esperamos Construir Juntos
 
-> "Eu tinha ZERO conhecimento de tecnologia. O Nível 1 me mostrou que eu posso aprender qualquer coisa!"
-> — **Maria S., Professora**
+**Nosso objetivo para 2026 é criar uma comunidade vibrante de alunos que:**
 
-> "Meu filho de 12 anos completou o Nível 1 sozinho. A programação visual é genial!"
-> — **Paulo R., Pai de aluno**
+- 🎓 Descubram que podem aprender robótica, independente do background
+- 👨‍👩‍👧‍👦 Compartilhem o conhecimento com suas famílias e comunidades
+- 🚀 Apliquem conceitos reais de engenharia de forma prática e divertida
 
-> "Esperava algo superficial para iniciantes, mas aprendi conceitos reais de engenharia de forma divertida."
-> — **Ana P., Estudante de engenharia**
+**Queremos ouvir SEU depoimento em breve!** Seja o primeiro a completar o Nível 1 e compartilhar sua jornada.
 
 ---
 

@@ -246,23 +246,21 @@ Não precisa escolher trilha imediatamente! Comece pelo **Nível 1** e ao longo 
 
 ---
 
-## 💬 Depoimentos por Trilha
+## 💬 Objetivos das Trilhas para 2026
 
 ### 🎓 Educação
-> "Implementei robôs nas minhas aulas de matemática e o engajamento dos alunos triplicou. Eles AMAM programar o robô!"
-> — **Maria S.**, Professora de Matemática
+> **Meta:** Professores implementando robôs em salas de aula e multiplicando engajamento dos alunos com tecnologia prática.
 
 ### 🤝 Social
-> "Com a Trilha Social montei uma oficina que já formou 50 jovens da periferia. 3 deles já conseguiram emprego na área!"
-> — **João P.**, Líder Comunitário
+> **Meta:** Líderes comunitários formando jovens da periferia e gerando oportunidades reais de emprego na área.
 
 ### 💼 Empreendedorismo
-> "Criei uma empresa de robôs recepcionistas. Hoje temos 5 clientes e faturamos R$ 30k/mês!"
-> — **Carlos M.**, Empreendedor
+> **Meta:** Empreendedores criando negócios sustentáveis com robótica e alcançando independência financeira.
 
 ### 🔬 Tecnologia
-> "A Trilha Tecnologia me preparou para entrar no mestrado. Hoje pesquiso LBMs na USP!"
-> — **Ana L.**, Pesquisadora
+> **Meta:** Pesquisadores aplicando conhecimento de ponta e contribuindo com o avanço científico brasileiro.
+
+**📢 Esses depoimentos serão reais em 2026 - seja você um dos primeiros a contar sua história!**
 
 ---
 

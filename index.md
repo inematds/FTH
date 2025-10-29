@@ -171,55 +171,57 @@ Além dos níveis técnicos, você pode seguir uma **trilha temática** de acord
 
 <div class="cta-final">
   <h2>Pronto para criar seu primeiro robô?</h2>
-  <p>Mais de <strong>1.000 pessoas</strong> já começaram sua jornada na robótica com IA</p>
+  <p>Junte-se ao programa pioneiro de <strong>robótica humanoide</strong> no Brasil</p>
   <a href="{{ '/niveis/nivel-1' | relative_url }}" class="btn btn-large btn-primary">Iniciar Nível 1 - Gratuito →</a>
 </div>
 
 ---
 
-## 📊 Impacto do Programa
+## 🎯 Metas para 2026
 
 <div class="stats-grid">
   <div class="stat">
     <div class="stat-number">1000+</div>
-    <div class="stat-label">Alunos formados</div>
+    <div class="stat-label">Meta de alunos</div>
   </div>
   <div class="stat">
     <div class="stat-number">300+</div>
-    <div class="stat-label">Projetos criados</div>
+    <div class="stat-label">Projetos esperados</div>
   </div>
   <div class="stat">
     <div class="stat-number">20+</div>
-    <div class="stat-label">Parcerias ativas</div>
+    <div class="stat-label">Parcerias planejadas</div>
   </div>
   <div class="stat">
     <div class="stat-number">10+</div>
-    <div class="stat-label">Startups geradas</div>
+    <div class="stat-label">Startups a criar</div>
   </div>
 </div>
 
 ---
 
-## 💬 O Que Dizem Nossos Alunos
+## 💬 O Que Queremos Ouvir em 2026
 
 <div class="testimonials">
 
   <div class="testimonial">
-    <p class="testimonial-text">"Nunca imaginei que eu, professora de matemática, conseguiria programar um robô. O Nível 1 foi transformador!"</p>
-    <p class="testimonial-author">— Maria S., Professora</p>
+    <p class="testimonial-text"><strong>Nosso objetivo:</strong> Professores descobrindo que podem programar robôs e transformar suas aulas com tecnologia prática.</p>
+    <p class="testimonial-author">🎓 Trilha Educação</p>
   </div>
 
   <div class="testimonial">
-    <p class="testimonial-text">"Consegui criar minha startup de robôs recepcionistas depois de completar o Nível 4. Já temos 5 clientes!"</p>
-    <p class="testimonial-author">— Carlos P., Empreendedor</p>
+    <p class="testimonial-text"><strong>Nossa visão:</strong> Empreendedores criando startups de robótica e gerando oportunidades reais de negócio.</p>
+    <p class="testimonial-author">💼 Trilha Empreendedorismo</p>
   </div>
 
   <div class="testimonial">
-    <p class="testimonial-text">"O conteúdo é muito bem estruturado. Saí do zero e hoje trabalho com IA em robótica. Mudou minha carreira!"</p>
-    <p class="testimonial-author">— Pedro M., Engenheiro</p>
+    <p class="testimonial-text"><strong>Nossa missão:</strong> Pessoas saindo do zero e alcançando carreiras em IA e robótica, mudando suas vidas.</p>
+    <p class="testimonial-author">🚀 Todas as Trilhas</p>
   </div>
 
 </div>
+
+<p style="text-align: center; margin-top: 2rem;"><strong>🌟 Seja um dos primeiros a completar o programa e compartilhe SUA história!</strong></p>
 
 ---
 

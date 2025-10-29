@@ -148,13 +148,13 @@ Contribuições são muito bem-vindas!
 
 ---
 
-## 📊 Impacto (Meta 2025)
+## 📊 Metas para 2026
 
 | Métrica | Objetivo |
 |---------|----------|
-| Alunos formados | 1.000+ |
+| Alunos a formar | 1.000+ |
 | Escolas parceiras | 20+ |
-| Startups criadas | 10+ |
+| Startups a criar | 10+ |
 | Projetos comunitários | 10+ |
 
 ---

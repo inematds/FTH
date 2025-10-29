@@ -45,15 +45,15 @@ Criar um **ecossistema educacional sustentável** onde:
 
 ---
 
-## 📊 Impacto Esperado
+## 📊 Metas de Impacto
 
-| Objetivo | Meta 2025 | Meta 2026 |
+| Objetivo | Meta 2026 | Visão 2027 |
 |----------|-----------|-----------|
-| Alunos formados | 1.000+ | 5.000+ |
-| Escolas parceiras | 20 | 100 |
-| Startups criadas | 10 | 50 |
-| Empregos gerados | 100+ | 500+ |
-| Comunidades atendidas | 10 | 50 |
+| Alunos a formar | 1.000+ | 5.000+ |
+| Escolas parceiras | 20+ | 100+ |
+| Startups a criar | 10+ | 50+ |
+| Empregos a gerar | 100+ | 500+ |
+| Comunidades a atender | 10+ | 50+ |
 
 ---
 
@@ -153,7 +153,7 @@ Alunos avançados ajudam iniciantes, reforçando conhecimento e criando rede.
 
 ### 1. Acessibilidade
 
-Conhecimento não é privilégio. **30% dos nossos alunos** vêm de comunidades de baixa renda, com bolsas integrais.
+Conhecimento não é privilégio. **Meta: 30% das vagas** reservadas para comunidades de baixa renda, com bolsas integrais.
 
 ### 2. Excelência
 
@@ -179,15 +179,21 @@ Medimos sucesso não apenas por alunos formados, mas por **vidas transformadas**
 
 Após ver o lançamento do Tesla Optimus e Figure 01, percebemos: **robôs humanoides serão mainstream em 5 anos**. Mas quem vai programá-los?
 
-### 2025 - Lançamento
+### 2025 - Preparação
 
-- Janeiro: Beta fechado com 20 testers
-- Março: Lançamento público
-- Junho: Primeira turma de 100 alunos
-- Setembro: 500+ alunos, 10 parcerias
-- Dezembro: 1.000 alunos, primeira startup criada
+- Concepção do programa FTH
+- Desenvolvimento da plataforma e conteúdo
+- Formação de parcerias estratégicas
+- Preparação da infraestrutura
 
-### 2026 - Expansão (Projetado)
+### 2026 - Lançamento e Crescimento (Planejado)
+
+- **Q1:** Beta fechado com primeiros testers
+- **Q2:** Lançamento público oficial
+- **Q3:** Primeira turma completa de alunos
+- **Q4:** Meta de 1.000+ alunos e parcerias ativas
+
+### 2027+ - Expansão (Visão)
 
 - Programa corporativo
 - Certificação internacional
@@ -196,17 +202,17 @@ Após ver o lançamento do Tesla Optimus e Figure 01, percebemos: **robôs human
 
 ---
 
-## 🤝 Parcerias e Colaborações
+## 🤝 Parcerias e Colaborações (Em Formação)
 
-### Empresas
+### Empresas (Planejadas)
 
-- **Noetix** - Desconto especial em hardware para alunos FTH
-- **NVIDIA** - Créditos cloud para treinamento
-- **Microsoft** - Azure para projetos avançados
+- **Noetix** - Negociação para descontos em hardware para alunos FTH
+- **NVIDIA** - Solicitação de créditos cloud para treinamento
+- **Microsoft** - Proposta de Azure para projetos avançados
 
-### Educação
+### Educação (Meta)
 
-- **20+ Escolas** - Programa piloto em escolas públicas e privadas
+- **20+ Escolas** - Objetivo de programa piloto em escolas públicas e privadas
 - **USP, Unicamp, UFMG** - Projetos de pesquisa conjuntos
 - **SENAI** - Formação técnica integrada
 
@@ -305,19 +311,23 @@ Apoiamos criação de **Clubes de Robótica Comunitários** com:
 
 ---
 
-## 💬 Depoimentos
+## 💬 O Que Queremos Construir em 2026
 
-> "FTH mudou minha vida. De professora de matemática a programadora de robôs. Meus alunos nunca estiveram tão engajados!"
-> — **Maria S., Professora**
+**Nossos objetivos para os alunos:**
 
-> "Criei uma startup de robôs recepcionistas com o que aprendi. Hoje faturamos R$ 30k/mês e estamos escalando!"
-> — **Carlos M., Empreendedor**
+> **Professores** transformando suas aulas com robótica, engajando alunos de forma inovadora
+> — 🎓 Trilha Educação
 
-> "Achei que nunca conseguiria programar. O Nível 1 provou que eu estava errado. Hoje estou no Nível 3 e amando!"
-> — **João P., Ex-vendedor**
+> **Empreendedores** criando startups sustentáveis de robótica e gerando empregos
+> — 💼 Trilha Empreendedorismo
 
-> "O conteúdo é de nível internacional. Consegui vaga de pesquisa no MIT graças ao meu projeto final."
-> — **Ana L., Engenheira**
+> **Pessoas sem background técnico** descobrindo que podem dominar programação e IA
+> — 🚀 Todos os Níveis
+
+> **Profissionais** alcançando nível internacional e contribuindo com pesquisa de ponta
+> — 🔬 Trilha Tecnologia Avançada
+
+**📢 Queremos publicar SEU depoimento aqui em 2026! Junte-se ao programa e faça história.**
 
 ---
 

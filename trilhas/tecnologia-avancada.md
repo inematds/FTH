@@ -38,7 +38,7 @@ Opções avançadas:
 ## 📚 Conteúdo Exclusivo da Trilha
 
 ### Estado da Arte
-- Papers recentes (2024-2025)
+- Papers recentes (2024-2026)
 - Benchmarks e métricas
 - Reprodução de experimentos
 - Análise crítica
