@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<article class="nivel-page">
+  <header class="nivel-header">
+    <h1 class="nivel-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <p class="nivel-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+    
+    {% if page.duracao %}
+    <div class="nivel-meta">
+      <span class="meta-item">⏱️ {{ page.duracao }}</span>
+      {% if page.nivel %}
+      <span class="meta-item">📊 {{ page.nivel }}</span>
+      {% endif %}
+      {% if page.preco %}
+      <span class="meta-item">💰 {{ page.preco }}</span>
+      {% endif %}
+    </div>
+    {% endif %}
+  </header>
+  
+  <div class="nivel-content">
+    {{ content }}
+  </div>
+  
+  {% if page.projeto %}
+  <section class="nivel-projeto">
+    <h2>🎯 Projeto Final</h2>
+    <div class="projeto-box">
+      {{ page.projeto }}
+    </div>
+  </section>
+  {% endif %}
+  
+  <nav class="nivel-navigation">
+    {% if page.anterior %}
+    <a href="{{ page.anterior }}" class="nav-btn nav-prev">← Anterior</a>
+    {% endif %}
+    {% if page.proximo %}
+    <a href="{{ page.proximo }}" class="nav-btn nav-next">Próximo →</a>
+    {% endif %}
+  </nav>
+</article>

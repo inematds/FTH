@@ -1,0 +1,32 @@
+<header class="site-header">
+  <div class="wrapper">
+    <div class="header-content">
+      <a class="site-title" href="{{ '/' | relative_url }}">
+        <span class="logo">🤖</span>
+        {{ site.title }}
+      </a>
+      
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        
+        <div class="nav-links">
+          {% for item in site.navigation %}
+          <a href="{{ item.url | relative_url }}" 
+             class="nav-link {% if page.url == item.url %}active{% endif %}">
+            {{ item.title }}
+          </a>
+          {% endfor %}
+          
+          <a href="{{ site.social.discord }}" class="nav-link nav-cta" target="_blank">
+            💬 Discord
+          </a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<article class="modulo-page">
+  <header class="modulo-header">
+    {% if page.nivel %}
+    <span class="modulo-badge">{{ page.nivel }}</span>
+    {% endif %}
+    <h1 class="modulo-title">{{ page.title }}</h1>
+    
+    {% if page.duracao %}
+    <div class="modulo-meta">
+      <span>⏱️ {{ page.duracao }}</span>
+      {% if page.dificuldade %}
+      <span>📊 {{ page.dificuldade }}</span>
+      {% endif %}
+    </div>
+    {% endif %}
+  </header>
+  
+  {% if page.objetivos %}
+  <section class="modulo-objetivos">
+    <h2>🎯 Objetivos de Aprendizado</h2>
+    <ul class="objetivos-list">
+      {% for objetivo in page.objetivos %}
+      <li>{{ objetivo }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+  
+  <div class="modulo-content">
+    {{ content }}
+  </div>
+  
+  {% if page.recursos %}
+  <section class="modulo-recursos">
+    <h2>📚 Recursos Adicionais</h2>
+    <ul class="recursos-list">
+      {% for recurso in page.recursos %}
+      <li><a href="{{ recurso.url }}" target="_blank">{{ recurso.titulo }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+  
+  <nav class="modulo-navigation">
+    {% if page.anterior %}
+    <a href="{{ page.anterior }}" class="nav-btn nav-prev">← Módulo Anterior</a>
+    {% endif %}
+    {% if page.proximo %}
+    <a href="{{ page.proximo }}" class="nav-btn nav-next">Próximo Módulo →</a>
+    {% endif %}
+  </nav>
+  
+  {% include progress-tracker.html %}
+</article>

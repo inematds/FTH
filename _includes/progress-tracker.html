@@ -1,0 +1,53 @@
+<div class="progress-tracker">
+  <div class="progress-header">
+    <h3>📊 Seu Progresso</h3>
+  </div>
+  
+  <div class="progress-bar-container">
+    <div class="progress-bar" id="progress-bar" style="width: 0%"></div>
+  </div>
+  
+  <div class="progress-actions">
+    <button class="btn-progress" onclick="markAsComplete()">
+      ✓ Marcar como Concluído
+    </button>
+  </div>
+  
+  <div class="progress-info">
+    <p class="progress-text">
+      Continue aprendendo! Cada módulo concluído te aproxima de criar seu próprio robô humanoide.
+    </p>
+  </div>
+</div>
+
+<script>
+function markAsComplete() {
+  const moduleId = '{{ page.id }}';
+  const completed = JSON.parse(localStorage.getItem('fth-progress') || '[]');
+  
+  if (!completed.includes(moduleId)) {
+    completed.push(moduleId);
+    localStorage.setItem('fth-progress', JSON.stringify(completed));
+    updateProgressBar();
+    showCompletionMessage();
+  }
+}
+
+function updateProgressBar() {
+  const completed = JSON.parse(localStorage.getItem('fth-progress') || '[]');
+  const totalModules = 12; // Ajustar conforme total de módulos
+  const percentage = (completed.length / totalModules) * 100;
+  
+  const progressBar = document.getElementById('progress-bar');
+  if (progressBar) {
+    progressBar.style.width = percentage + '%';
+  }
+}
+
+function showCompletionMessage() {
+  alert('🎉 Módulo concluído! Continue assim!');
+}
+
+// Atualizar progresso ao carregar página
+document.addEventListener('DOMContentLoaded', updateProgressBar);
+</script>

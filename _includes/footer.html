@@ -1,0 +1,47 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-content">
+      <div class="footer-col footer-col-1">
+        <h3>{{ site.title }}</h3>
+        <p>{{ site.description }}</p>
+      </div>
+      
+      <div class="footer-col footer-col-2">
+        <h4>Links Rápidos</h4>
+        <ul class="footer-links">
+          {% for item in site.navigation %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="footer-col footer-col-3">
+        <h4>Comunidade</h4>
+        <ul class="social-links">
+          <li>
+            <a href="{{ site.social.discord }}" target="_blank" rel="noopener">
+              💬 Discord
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.social.github }}" target="_blank" rel="noopener">
+              🐙 GitHub
+            </a>
+          </li>
+          <li>
+            <a href="mailto:{{ site.social.email }}">
+              📧 Email
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}. 
+         Licença <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
+      </p>
+      <p class="footer-tagline">Feito com ❤️ para democratizar a robótica no Brasil</p>
+    </div>
+  </div>
+</footer>

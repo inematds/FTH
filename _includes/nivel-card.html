@@ -1,0 +1,30 @@
+<div class="nivel-card {{ include.classe }}">
+  <div class="nivel-card-header">
+    <span class="nivel-icon">{{ include.icon }}</span>
+    <span class="nivel-badge">{{ include.badge }}</span>
+  </div>
+  
+  <div class="nivel-card-body">
+    <h3 class="nivel-card-title">{{ include.titulo }}</h3>
+    <p class="nivel-card-duracao">⏱️ {{ include.duracao }}</p>
+    <p class="nivel-card-descricao">{{ include.descricao }}</p>
+    
+    <ul class="nivel-card-topicos">
+      {% assign topicos = include.topicos | split: '|' %}
+      {% for topico in topicos %}
+      <li>{{ topico }}</li>
+      {% endfor %}
+    </ul>
+    
+    <div class="nivel-card-projeto">
+      <strong>🎯 Projeto:</strong> {{ include.projeto }}
+    </div>
+  </div>
+  
+  <div class="nivel-card-footer">
+    <span class="nivel-preco">{{ include.preco }}</span>
+    <a href="{{ include.url | relative_url }}" class="btn-nivel">
+      {{ include.cta | default: "Começar" }} →
+    </a>
+  </div>
+</div>
