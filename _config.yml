@@ -15,6 +15,12 @@ email: "inematds@gmail.com"
 github_username: inematds
 repository: inematds/FTH
 
+# Social Links
+social:
+  discord: "https://discord.gg/fth-brasil"
+  github: "https://github.com/inematds/FTH"
+  email: "inematds@gmail.com"
+
 # Tema
 theme: minima
 markdown: kramdown
